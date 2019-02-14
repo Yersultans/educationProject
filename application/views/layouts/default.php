@@ -2,9 +2,9 @@
 <html >
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title><?php echo $title; ?></title>
   </head>
   <body>
-    <h1>This is Project made for education</h1>
+<?php echo $content; ?>
   </body>
 </html>
